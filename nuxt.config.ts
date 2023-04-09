@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/google-fonts',
+    '@nuxtjs/plausible',
     '@nuxtjs/tailwindcss',
   ],
   css: [
@@ -15,5 +16,8 @@ export default defineNuxtConfig({
     families: {
       Ubuntu: [400, 500, 700],
     },
+  },
+  plausible: {
+    apiHost: 'https://ecstaticdancezottegem.be/plio',
   },
 })
