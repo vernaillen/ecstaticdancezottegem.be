@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "antfu.vite",
+    "antfu.browse-lite",
+    "Vue.vscode-typescript-vue-plugin"
+  ]
+}
