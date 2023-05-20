@@ -7,7 +7,6 @@ export default defineNuxtConfig({
   ],
   css: [
     '@/assets/css/main.css',
-    'animate.css/animate.min.css',
   ],
   googleFonts: {
     download: true,
