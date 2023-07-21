@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
+    '@nuxthq/ui',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/plausible',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/plausible'
   ],
   css: [
     '@/assets/css/main.css'

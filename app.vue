@@ -19,7 +19,7 @@ useHead({
 </script>
 
 <template>
-  <div class="block text-center align-bottom">
+  <div class="prose block text-center align-bottom">
     <h4 class="text-xl sm:text-2xl mt-16 text-gray-600">
       binnenkort
     </h4>
