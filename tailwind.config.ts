@@ -16,7 +16,8 @@ module.exports = {
       dark: '#001818',
       white: colors.white,
       gray: colors.gray,
-      neutral: colors.neutral
+      neutral: colors.neutral,
+      red: colors.red
     },
     container: {
       center: true,

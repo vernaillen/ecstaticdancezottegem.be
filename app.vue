@@ -43,12 +43,17 @@ useHead({
 
 <template>
   <NuxtLoadingIndicator id="pageTop" color="repeating-linear-gradient(to right,rgb(197 213 45/100%) 0%,rgb(170 168 87/100%) 33%,rgb(157 177 159/100%) 66%,rgb(0 71 69/100%) 100%)" />
-  <div class="prose block text-center align-bottom">
-    <h4 class="text-xl sm:text-2xl mt-16 text-gray-600">
-      binnenkort
-    </h4>
-    <h1 class="text-4xl xl:text-5xl font-bold text-primary my-20">
-      Ecstatic Dance Zottegem
-    </h1>
+  <div class="container">
+    <header class="py-4 flex justify-end">
+      <DarkToggler />
+    </header>
+    <div class="prose dark:prose-invert block text-center align-bottom">
+      <h4 class="text-xl sm:text-2xl mt-16 text-gray-600">
+        binnenkort
+      </h4>
+      <h1 class="text-4xl xl:text-5xl font-bold text-primary my-20">
+        Ecstatic Dance Zottegem
+      </h1>
+    </div>
   </div>
 </template>
