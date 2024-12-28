@@ -1,26 +1,34 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/ui',
-    '@nuxtjs/google-fonts',
+    '@nuxt/ui-pro',
+    '@nuxt/content',
     '@nuxtjs/plausible'
   ],
-  css: [
-    '@/assets/css/main.css'
-  ],
+  
+  css: ['~/assets/css/main.css'],
+
+  content: {
+    studio: {
+      enabled: true,
+      gitInfo: {
+        name: 'ecstaticdancezottegem.be',
+        owner: 'vernaillen',
+        url: 'https://github.com/vernaillen/ecstaticdancezottegem.be'
+      }
+    }
+  },
+
   colorMode: {
     preference: 'light'
   },
-  googleFonts: {
-    download: true,
-    inject: true,
-    preconnect: true,
-    display: 'swap',
-    families: {
-      Montserrat: [100, 200, 300, 400, 500, 600, 700, 800, 900]
-    }
-  },
+
   plausible: {
     apiHost: 'https://ecstaticdancezottegem.be/plio'
-  }
+  },
+
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2024-12-28'
 })

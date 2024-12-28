@@ -3,7 +3,8 @@ import colors from 'tailwindcss/colors'
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './content/**/*.md'
+    './content/**/*.md',
+    './app/**/*.vue'
   ],
   mode: 'jit',
   darkMode: 'class',
