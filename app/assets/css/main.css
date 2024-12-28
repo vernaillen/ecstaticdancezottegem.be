@@ -3,5 +3,16 @@
 
 @theme {
   --font-sans: 'Montserrat', sans-serif;
-}
 
+  --color-avocado-50: #f8f9f7;
+  --color-avocado-100: #f2f3ee;
+  --color-avocado-200: #dee1d5;
+  --color-avocado-300: #cacfbb;
+  --color-avocado-400: #a3ac89;
+  --color-avocado-500: #7b8856;
+  --color-avocado-600: #6f7a4d;
+  --color-avocado-700: #5c6641;
+  --color-avocado-800: #4a5234;
+  --color-avocado-900: #3c432a;
+  --color-avocado-950: #242819;
+}

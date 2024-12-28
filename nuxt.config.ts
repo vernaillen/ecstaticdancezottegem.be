@@ -2,22 +2,10 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui-pro',
-    '@nuxt/content',
     '@nuxtjs/plausible'
   ],
-  
-  css: ['~/assets/css/main.css'],
 
-  content: {
-    studio: {
-      enabled: true,
-      gitInfo: {
-        name: 'ecstaticdancezottegem.be',
-        owner: 'vernaillen',
-        url: 'https://github.com/vernaillen/ecstaticdancezottegem.be'
-      }
-    }
-  },
+  css: ['~/assets/css/main.css'],
 
   colorMode: {
     preference: 'light'
