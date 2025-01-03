@@ -1,11 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/ui-pro',
-    '@nuxtjs/plausible'
+    '@nuxt/eslint',
+    '@nuxt/ui-pro', 
+    '@nuxtjs/plausible', 
   ],
 
-  css: ['~/assets/css/main.css'],
+  css: [
+    './app/assets/css/main.css',
+  ],
 
   colorMode: {
     preference: 'light'
