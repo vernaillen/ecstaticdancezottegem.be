@@ -19,7 +19,7 @@ useHead({
 </script>
 
 <template>
-  <UApp locale="nl">
+  <UApp>
     <UPage>
       <UPageHeader
         :title
